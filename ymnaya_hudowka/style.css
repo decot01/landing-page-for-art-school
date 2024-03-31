@@ -1,0 +1,673 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;}
+body{
+  max-width: 1920px;
+}
+@font-face {
+  font-family: "Coolcvetica";
+  src: url("/images/coolvetica compressed rg.ttf");
+}
+
+@font-face {
+  font-family: "NT Somic";
+  src: url("/images/NT Somic.ttf");
+}
+
+
+.navigation {
+  position: fixed;
+  z-index: 100; /* Чтобы оно оставалось поверх другого контента */
+}
+
+
+  .div-wrapper .overlap-group {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/images/background.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .overlap {
+    position: absolute;
+    width: 1144px;
+    height: 441px;
+    top: 253px;
+    left: 387px;
+  }
+  
+  .div-wrapper .div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    position: absolute;
+    top: 114px;
+    left: 105px;
+    background-color: #2b2b2b;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .div-wrapper .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "NT Somic-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 65.4px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .element {
+    position: absolute;
+    width: 221px;
+    height: 221px;
+    top: 220px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .div-wrapper .element-dicons {
+    width: 240px;
+    height: 240px;
+    top: 0;
+    left: 904px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .div-wrapper .view-2 {
+    color: #fff;
+    position: fixed;
+    z-index: 1000; /* Чтобы оно оставалось поверх другого контента */
+
+    width: 626px;
+    height: 45px;
+    top: 34px;
+    left: 1132px;
+  }
+  
+  .div-wrapper .rectangle {
+    color: #fff;
+    position: absolute;
+    width: 141px;
+    height: 45px;
+    top: 0;
+    left: 485px;
+    background-color: #445EE5;
+    border-radius: 100px;
+    font-family: "NT Somic";
+    font-size: 27px;
+  }
+  
+  .div-wrapper .rectangle-2 {
+    color: #fff;
+    position: absolute;
+    width: 141px;
+    height: 45px;
+    top: 0;
+    left: 324px;
+    background-color: #2F2B6B;
+    border-radius: 100px;
+    font-family: "NT Somic";
+    font-size: 27px;
+  }
+  
+  .div-wrapper .rectangle-3 {
+    color: #fff;
+    position: absolute;
+    width: 141px;
+    height: 45px;
+    top: 0;
+    left: 163px;
+    background-color: #E88F27;
+    border-radius: 100px;
+    font-family: "NT Somic";
+    font-size: 27px;
+  }
+  
+  .div-wrapper .rectangle-4 {
+    color: #fff;
+    position: absolute;
+    width: 141px;
+    height: 45px;
+    top: 0;
+    left: 0;
+    background-color: #2B2B2B;
+    border-radius: 100px;
+    font-family: "NT Somic";
+    font-size: 27px;
+  }
+  
+  .div-wrapper .text-wrapper-2 {
+    position: absolute;
+    top: 36px;
+    left: 162px;
+    font-family: "Coolvetica", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 31.1px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    color: #FFF;
+    text-align: center;
+    font-size: 31.1px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.989px; /* 83.568% */
+  }
+  
+
+  
+  .div-wrapper .overlap-2 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/images/BlackRectangle.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .img {
+    position: absolute;
+    width: 957px;
+    height: 941px;
+    top: 63px;
+    left: 945px;
+  }
+  
+  .div-wrapper .element-2 {
+    width: 206px;
+    height: 206px;
+    top: 865px;
+    left: 818px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .div-wrapper .text-wrapper-3 {
+    position: absolute;
+    top: 84px;
+    left: 160px;
+    text-shadow: 0px 4px 4px #000000;
+    font-family: "NT Somic-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 159.9px;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .p {
+    position: absolute;
+    width: 788px;
+    top: 285px;
+    left: 162px;
+    font-family: "NT Somic-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+
+  
+  .div-wrapper .overlap-3 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/images/OrangeRectangle.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .text-wrapper-5 {
+    position: absolute;
+    width: 1600px;
+    top: 121px;
+    left: 162px;
+    font-weight: 700;
+    font-size: 133.3px;
+    color: #FFF;
+    text-shadow: 0px 3.979px 4.974px #000;
+    font-family: "NT Somic-Bold", Helvetica;
+    font-size: 133.272px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  
+  .div-wrapper .frame {
+    display: inline-flex;
+    gap: 9.08px;
+    padding: 45.38px;
+    position: absolute;
+    top: 355px;
+    left: 160px;
+    background-color: #1e1e1e;
+    border-radius: 45.38px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-wrapper .element-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.91px;
+    font-family: "NT Somic-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 48.9px;
+    line-height: 94.1px;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .element-4 {
+    width: 206px;
+    height: 206px;
+    top: 626px;
+    left: 146px;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  
+  .div-wrapper .overlap-group-4 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/images/PurpleRectangle.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .overlap-12 {
+    position: absolute;
+    width: 1756px;
+    height: 833px;
+    top: 32px;
+    left: 95px;
+  }
+  
+  .div-wrapper .overlap-13 {
+    position: absolute;
+    width: 1302px;
+    height: 661px;
+    top: 0;
+    left: 454px;
+  }
+  
+  .div-wrapper .text-wrapper-16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-shadow: 0px 5.36px 6.7px #000000;
+    font-family: "NT Somic-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 179.6px;
+    text-align: center;
+    line-height: 162px;
+    white-space: nowrap;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .overlap-14 {
+    position: absolute;
+    width: 558px;
+    height: 580px;
+    top: 81px;
+    left: 744px;
+  }
+  
+  .div-wrapper .rectangle-11 {
+    top: 115px;
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 150px;
+    box-shadow: 0px 4px 4px #000000;
+  }
+  
+  .div-wrapper .element-7 {
+    width: 234px;
+    height: 234px;
+    top: 0;
+    left: 324px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .div-wrapper .overlap-15 {
+    position: absolute;
+    width: 514px;
+    height: 537px;
+    top: 296px;
+    left: 0;
+  }
+  
+  .div-wrapper .overlap-16 {
+    position: absolute;
+    width: 514px;
+    height: 500px;
+    top: 0;
+    left: 0;
+  }
+  
+  .div-wrapper .rectangle-12 {
+    left: 49px;
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    top: 0;
+    background-color: #d9d9d9;
+    border-radius: 150px;
+    box-shadow: 0px 4px 4px #000000;
+  }
+  
+  .div-wrapper .element-8 {
+    width: 159px;
+    height: 159px;
+    top: 341px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .div-wrapper .text-wrapper-17 {
+    position: absolute;
+    top: 481px;
+    left: 177px;
+    font-family: "NT Somic-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 43px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .rectangle-13 {
+    top: 251px;
+    left: 632px;
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    background-color: #d9d9d9;
+    border-radius: 150px;
+    box-shadow: 0px 4px 4px #000000;
+  }
+  
+  .div-wrapper .text-wrapper-18 {
+    position: absolute;
+    top: 748px;
+    left: 824px;
+    font-family: "NT Somic-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 43px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .text-wrapper-19 {
+    position: absolute;
+    top: 693px;
+    left: 1405px;
+    font-family: "NT Somic-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 43px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .view-5 {
+    position: absolute;
+    width: 1924px;
+    height: 1080px;
+    top: 5400px;
+    left: 0;
+  }
+  
+  .div-wrapper .overlap-17 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/images/grey.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .text-wrapper-20 {
+    top: 117px;
+    left: 524px;
+    font-family: "Coolvetica-Regular", Helvetica;
+    font-size: 235.1px;
+    line-height: 196.5px;
+    position: absolute;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .div-2 {
+    top: 540px;
+    left: 531px;
+    font-family: "NT Somic-Bold", Helvetica;
+    font-size: 60.9px;
+    line-height: 86.5px;
+    position: absolute;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .text-wrapper-21 {
+    font-weight: 700;
+  }
+  
+  .div-wrapper .text-wrapper-22 {
+    font-family: "NT Somic-Regular", Helvetica;
+  }
+  
+  .div-wrapper .overlap-18 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/images/BlueRectangle.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .text-wrapper-23 {
+    position: absolute;
+    top: 87px;
+    left: 193px;
+    text-shadow: 0px 4px 4px #000000;
+    font-family: "NT Somic-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 92.5px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .overlap-group-5 {
+    position: absolute;
+    width: 1398px;
+    height: 634px;
+    top: 360px;
+    left: 323px;
+  }
+  
+  .div-wrapper .view-6 {
+    position: absolute;
+    width: 1274px;
+    height: 497px;
+    top: 0;
+    left: 0;
+    background-image: url(/images/BlueRectangle.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .frame-2 {
+    display: inline-flex;
+    gap: 10px;
+    padding: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e88f27;
+    border-radius: 50px 50px 0px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-wrapper .text-wrapper-24 {
+    position: relative;
+    width: fit-content;
+    font-family: "NT Somic-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 62.8px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .frame-3 {
+    display: flex;
+    width: 800px;
+    gap: 10px;
+    padding: 30px 1px;
+    position: relative;
+
+    border-radius: 50px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-wrapper .text-wrapper-25 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.46px;
+    margin-left: -49.95px;
+    margin-right: -49.95px;
+    font-family: "NT Somic-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 91.4px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .frame-wrapper {
+    display: inline-flex;
+    padding: 43.66px;
+    position: absolute;
+    top: 200px;
+
+    background-color: #e88f27;
+    border-radius: 0px 0px 46.77px 46.77px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .div-wrapper .frame-4 {
+    display: flex;
+    width: 1171.63px;
+    padding: 43.66px 203.76px;
+    position: relative;
+    background-color: #2b2b2b;
+    border-radius: 72.77px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 14.55px;
+  }
+  
+  .div-wrapper .text-wrapper-26 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.46px;
+    margin-left: -49.95px;
+    margin-right: -49.95px;
+    font-family: "NT Somic-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 91.4px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .element-9 {
+    width: 344px;
+    height: 344px;
+    top: 290px;
+    left: 1054px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+.name{
+  display: flex;
+  width: 805px;
+  padding: 30px 140px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  text-align: center;
+  font-family: "NT Somic";
+  font-size: 62.814px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 50px;
+  background: #2B2B2B;
+}
+
+.btn{
+  display: flex;
+  width: 1171px;
+  padding: 43px 203px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 72px;
+  background: #2b2b2b;
+  color: #FFF;
+  text-align: center;
+  font-family: "NT Somic";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+
+.btn:disabled {
+  font-family: "NT Somic";
+  background-color: gray;
+  color: #aaa;
+  pointer-events: none;
+  font-size: 60px;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}

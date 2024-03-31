@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="code.js"></script>
+
+  </head>
+  <body>
+    <div id ="pro" class="div-wrapper">
+      <div class="view">
+        <div class="overlap-group">
+          <div class="overlap">
+            <div class="div">
+              <p class="text-wrapper">Учим не просто рисовать, <br />а креативно мыслить</p>
+            </div>
+            <img class="element" src="images/staricon.png" />
+            <img class="element-dicons" src="images/brushicon.png" />
+          </div>
+          <div class="view-2">
+            
+            <div class='rectangle' onclick="document.getElementById('write').scrollIntoView({behavior: 'smooth'});">⠀Запись</div>
+            <div class='rectangle-2' onclick="document.getElementById('abouts').scrollIntoView({behavior: 'smooth'});">⠀Отзывы</div>
+            <div class='rectangle-3' onclick="document.getElementById('plus').scrollIntoView({behavior: 'smooth'});">⠀Плюсы</div>
+            <div class='rectangle-4' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">⠀О школе</div> 
+  
+          </div>
+          <div class='navigation' onclick="document.getElementById('pro').scrollIntoView({behavior: 'smooth'});"><div class="text-wrapper-2">УМНАЯ<br />ХУДОЖКА</div></div> 
+        </div>
+      </div>
+
+
+
+
+      <div id ="about" class="overlap-wrapper">
+        <div class="overlap-2">
+          <img class="img" src="images/Rectangle8.png" />
+          <img class="element-2" src="images/bolt.png" />
+          <div class="text-wrapper-3">О ШКОЛЕ</div>
+          <p class="p">
+            <span class="span">Мы неспроста назвали нашу художку </span>
+            <span class="text-wrapper-4">“умной”</span>
+            <span class="span"
+              >!<br />Наша цель - развивать в детях не только практические навыки рисования, но и способность
+              нестандартно
+            </span>
+            <span class="text-wrapper-4">мыслить</span>
+          </p>
+        </div>
+      </div>
+
+
+
+
+      <div id="plus" class="view">
+        <div class="overlap-3">
+          <div class="text-wrapper-5">НАШИ ПРИЕМУЩЕСТВА</div>
+          <div class="frame">
+            <p class="element-3">
+              100% гарантия получения художественных навыков<br />Выдаем дипломы об образовании<br />Мы сами
+              предоставляем основные материалы для работы
+            </p>
+          </div>
+          <img class="element-4" src="images/shiled.png" />
+        </div>
+      </div>
+      
+     
+
+
+      <div id="abouts" class="view-wrapper">
+        <div class="view-4">
+          <div class="overlap-group-4">
+            <div class="overlap-12">
+              <div class="overlap-13">
+                <div class="text-wrapper-16">ОТЗЫВЫ</div>
+                <div class="overlap-14">
+                  <div class="rectangle-11"></div>
+                  <img class="element-7" src="images/paper.png" />
+                </div>
+              </div>
+              <div class="overlap-15">
+                <div class="overlap-16">
+                  <div class="rectangle-12"></div>
+                  <img class="element-8" src="images/photoicon.png" />
+                </div>
+                <div class="text-wrapper-17">Анна,15 лет</div>
+              </div>
+              <div class="rectangle-13"></div>
+            </div>
+            <div class="text-wrapper-18">Ольга,14 лет</div>
+            <div class="text-wrapper-19">Марк,11 лет</div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div id="write"class="view">
+        <div class="overlap-18">
+          <div class="text-wrapper-23">ЗАПИШИТЕСЬ НА <br />БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</div>
+          <div class="overlap-group-5">
+            <div class="view-6">
+              <div class="frame-2">
+                <div class="text-wrapper-24">Ваш телефон</div>
+                <div class="frame-3"> <input id="inputText"   type="text" class="name" placeholder="+7__________"></div>
+              <div class="frame-wrapper">
+                <button class="btn" id="myButton" onclick="AddToDB();disableButton()">ОСТАВИТЬ ЗАЯВКУ</button>
+              </div>
+            </div>
+            <img class="element-9" src="images/ok.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <div class="view-5">
+        <div class="overlap-17">
+          <div class="text-wrapper-20">Умная<br />Художка</div>
+          <p class="div-2">
+            <span class="text-wrapper-21">Адрес Художки:</span>
+            <span class="text-wrapper-22">
+              г. Казань, <br />ул. Большая Красная, д. 121Б, <br />Советский район, <br />жилой массив Малые Клыки</span
+            >
+          </p>
+        </div>
+      </div>
+  </body>
+</html>
